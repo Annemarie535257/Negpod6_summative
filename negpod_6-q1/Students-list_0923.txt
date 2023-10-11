@@ -1,0 +1,21 @@
+#!/bin/bash
+
+# Initialize an empty array to store student records
+
+declare -a student_records
+
+# Function to create a student record and save it to a file
+
+create_student_record() {
+    echo "Enter student email: "
+    read email
+    echo "Enter student age: "
+    read age
+    echo "Enter student ID: "
+    read student_id
+
+    # Create a new record using a bash associative array
+    declare -A student
+    student["email"]=$email
+    student["age"]=$age
+    student["student_id"]=$student_id
