@@ -16,7 +16,8 @@ This project relies on the following software:
 
 # Process To Run
 - First run ./main.sh
-- 
+- Then run Select-emails.sh
+- Then run ./backup-Negpod_ID.sh to back it up
 # Meet the Team
 
 Authors:
@@ -25,6 +26,7 @@ Authors:
 - Benitha Uwituze: explainer
 - Anne Marie Twagirayezu: explainer and coordinator
 - Bridget Ogbuagu: explainer
+- Vanessa Uwonkunda: explainer
 
 
 # Contact Us
