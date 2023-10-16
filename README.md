@@ -14,6 +14,9 @@ This project relies on the following software:
 - Bash
 - Git
 
+# Process To Run
+- First run ./main.sh
+- 
 # Meet the Team
 
 Authors:
